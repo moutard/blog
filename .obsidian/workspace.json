@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "30e20a9770813c33",
+    "type": "split",
+    "children": [
+      {
+        "id": "01765e22adcf2d5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44bfcf286052a24a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-04-15-graphql-from-excitment-to-deception.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "574c39eba3347dbf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9e2d60a0d01b4bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4afea3de13a53b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24183601987093ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d43f8fccda1c472b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "33cc860f748c652d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd476c3a04a8be16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "884bfa1e3a1abc67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2023-04-15-graphql-from-excitment-to-deception.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df5eb86b2d014518",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2023-04-15-graphql-from-excitment-to-deception.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56ad670c46a06edc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d61cc4c12aadd852",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2023-04-15-graphql-from-excitment-to-deception.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "44bfcf286052a24a",
+  "lastOpenFiles": [
+    "_site/jekyll/update/2023/04/15/graphql-from-excitment-to-deception.html",
+    "_posts/2023-04-15-graphql-from-excitment-to-deception.md",
+    "_site/jekyll/update/2023/04/15/welcome-to-jekyll-copy.html",
+    "_posts/2023-04-15-welcome-to-jekyll copy.markdown"
+  ]
+}
