@@ -2,7 +2,7 @@
 layout: post
 title:  The secret of success is to do the common thing uncommonly well
 date:   2021-09-07 15:01:35 +0300
-author: alena
+author: raphael
 image:  '/images/20.jpg'
 tags:   [oregon, travel]
 tags_color: '#666e76'

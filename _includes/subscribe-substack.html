@@ -1,0 +1,29 @@
+{% if site.data.settings.substack__settings.enable == true %}
+<!-- begin subscribe -->
+<div class="subscribe animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="subscribe__inner">
+          <div class="subscribe__content">
+            {% if site.data.settings.substack__settings.substack__title %}
+            <h3 class="subscribe__title">{{ site.data.settings.substack__settings.substack__title }}</h3>
+            {% endif %}
+            {% if site.data.settings.substack__settings.substack__description %}
+            <p class="subscribe__description">{{ site.data.settings.substack__settings.substack__description }}</p>
+            {% endif %}
+          </div>
+          <iframe src="https://moutard.substack.com/embed" width="680" height="220"
+            style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% if site.data.settings.substack__settings.substack__background__image %}
+  <div class="subscribe__bg lazy" data-bg="{{site.data.settings.mailchimp__settings.mailchimp__background__image}}">
+  </div>
+  {% endif %}
+</div>
+<!-- end subscribe -->
+{% endif %}

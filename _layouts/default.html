@@ -6,7 +6,7 @@
 <body>
 
   {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
+  {% include google-analytics.html %}
   {% endif %}
 
   <!-- begin global wrap -->
@@ -21,17 +21,17 @@
     </div>
     <!-- end hero image -->
     {% endif %}
-  
+
     {% include header.html %}
-  
+
     <!-- begin content -->
     <main class="content" aria-label="Content">
       {{ content }}
     </main>
     <!-- end content -->
-  
-    {% include subscribe.html %}
-  
+
+    {% include subscribe-substack.html %}
+    {% include subscribe-mailchimp.html %}
     {% include footer.html %}
 
   </div>

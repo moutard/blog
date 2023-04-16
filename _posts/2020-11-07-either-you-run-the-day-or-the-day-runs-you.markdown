@@ -3,7 +3,7 @@ layout: post
 title:  Either you run the day, or the day runs you
 description:
 date:   2021-11-07 15:01:35 +0300
-author: alena
+author: raphael
 image:  '/images/08.jpg'
 tags:   [lifestyle]
 tags_color: '#b25642'

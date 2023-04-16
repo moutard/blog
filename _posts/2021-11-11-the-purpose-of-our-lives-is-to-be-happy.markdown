@@ -3,7 +3,7 @@ layout: post
 title:  The purpose of our lives is to be happy
 description:
 date:   2021-11-11 15:01:35 +0300
-author: alena
+author: raphael
 image:  '/images/04.jpg'
 tags:   [lifestyle]
 tags_color: '#b25642'
