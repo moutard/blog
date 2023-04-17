@@ -51,3 +51,42 @@
     }
   }
 }
+
+/* Gallery Line */
+.gallery-line {
+  margin: 32px -100px 32px -100px;
+
+  @media only screen and (max-width: $wide) {
+    margin: 32px -40px 32px -40px;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    margin: 32px 0;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: inherit;
+    margin-bottom: 10px;
+
+    img {
+      margin-left: 24px;
+      margin-bottom: 24px;
+      height: inherit;
+      width: auto;
+    }
+
+    @media only screen and (max-width: $desktop) {
+      margin-left: -12px;
+      margin-bottom: -12px;
+
+      img {
+        margin-left: 12px;
+        margin-bottom: 12px;
+        width: calc(100% - 12px);
+      }
+    }
+  }
+}
