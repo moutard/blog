@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -18,7 +20,10 @@ body {
   }
 
   &.disable-animation {
-    *, *::after, *::before {
+
+    *,
+    *::after,
+    *::before {
       transition: none !important;
     }
   }
@@ -71,11 +76,11 @@ h6 {
 blockquote {
   position: relative;
   margin: 32px 0;
-  padding: 24px 0 24px 56px;
+  padding: 24px 0 24px 36px;
   font-family: $heading-font-family;
-  font-size: 30px;
+  font-size: 1em;
+  font-style: italic;
   line-height: 1.6;
-  font-style: normal;
   color: var(--heading-font-color);
 
   &::before {
@@ -87,6 +92,7 @@ blockquote {
     font-size: 3.5em;
     line-height: 0;
     color: var(--heading-font-color);
+    font-style: normal;
   }
 
   p {
@@ -141,7 +147,7 @@ img,
     font-style: normal;
     font-weight: normal;
     text-align: center;
-  
+
     a {
       font-weight: 600;
       border-bottom: 1px solid transparent;
@@ -152,7 +158,7 @@ img,
         border-color: var(--link-color-hover);
       }
     }
-  
+
     @media only screen and (max-width: $mobile) {
       margin-top: 12px;
     }
@@ -215,6 +221,7 @@ table th {
 table tr {
   background-color: var(--tr-color);
   transition: all .3s ease;
+
   &:nth-child(even) {
     background-color: transparent;
   }
