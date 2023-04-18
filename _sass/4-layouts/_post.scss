@@ -44,7 +44,7 @@
     color: var(--heading-font-color);
     transition: none;
     background-color: var(--background-alt-color);
-  
+
     &:last-child {
       margin-right: 0;
     }
@@ -67,6 +67,7 @@
   margin-bottom: 20px;
   font-size: 21px;
   color: var(--text-alt-color);
+  font-style: italic;
 }
 
 .post__meta {
@@ -225,7 +226,8 @@
     }
   }
 
-  img, .js-reframe {
+  img,
+  .js-reframe {
     border-radius: 8px;
     overflow: hidden;
 
@@ -359,7 +361,7 @@
     overflow: hidden;
     margin-right: 24px;
     background-color: var(--background-color);
-  
+
     img {
       position: absolute;
       top: 0;
@@ -370,12 +372,12 @@
       user-select: none;
     }
   }
-  
+
   .card-author__role {
     margin-bottom: 4px;
     font-size: 12px;
   }
-  
+
   .card-author__name {
     margin-bottom: 12px;
     font-size: 21px;
@@ -390,7 +392,7 @@
       }
     }
   }
-  
+
   .card-author__description {
     margin-bottom: 0;
     color: var(--text-alt-color);
@@ -480,7 +482,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-     margin: 60px auto 0;
+    margin: 60px auto 0;
   }
 }
 
@@ -506,9 +508,9 @@
   }
 
   @media only screen and (max-width: $mobile) {
-     &.is-open {
-       margin: 80px auto;
-     }
+    &.is-open {
+      margin: 80px auto;
+    }
   }
 }
 
@@ -525,7 +527,7 @@
   .error__text {
     color: var(--text-alt-color);
   }
-  
+
   @media only screen and (max-width: $mobile) {
     .error__title {
       font-size: 100px;
