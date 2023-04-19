@@ -5,7 +5,7 @@ description: A long journey from javascript to C++.
 date:   2020-06-28 15:01:35 +0300
 author: raphael
 image:  '/images/micro-optimisation/tunnel-reshape.png'
-tags:   [management]
+tags:   [technology, javascript, c++]
 tags_color: '#477690'
 ---
 
